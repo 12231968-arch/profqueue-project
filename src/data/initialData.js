@@ -1,0 +1,63 @@
+export const initialDoctors = [
+  {
+    id: 1,
+    name: "Dr. Samira Klaylat",
+    courseCode: "CSCI426",
+    courseName: "Advanced Web Programming",
+    subject: "Computer Science",
+    office: "Block B - Room 304",
+    officeHours: "Mon & Wed | 11:00 AM - 1:00 PM",
+  },
+  {
+    id: 2,
+    name: "Dr. Rami Haddad",
+    courseCode: "CSCI310",
+    courseName: "Data Structures & Algorithms",
+    subject: "Computer Science",
+    office: "Block B - Room 212",
+    officeHours: "Tue & Thu | 10:00 AM - 12:00 PM",
+  },
+  {
+    id: 3,
+    name: "Dr. Nadia Mansour",
+    courseCode: "MATH210",
+    courseName: "Linear Algebra",
+    subject: "Mathematics",
+    office: "Block A - Room 108",
+    officeHours: "Mon & Wed | 2:00 PM - 4:00 PM",
+  },
+  {
+    id: 4,
+    name: "Dr. Tariq Khoury",
+    courseCode: "CSCI350",
+    courseName: "Database Management Systems",
+    subject: "Information Technology",
+    office: "Block C - Room 401",
+    officeHours: "Tue & Thu | 1:00 PM - 3:00 PM",
+  },
+];
+
+export const initialTickets = [
+  {
+    id: 101,
+    ticketCode: "#PQ-1042",
+    doctorId: 1,
+    studentName: "Sara Khalil",
+    studentId: "12230411",
+    topic: "Project Phase 1 Review",
+    question: "Checking responsive layout and routing requirements.",
+    status: "serving",
+    joinedAt: "11:05 AM",
+  },
+  {
+    id: 102,
+    ticketCode: "#PQ-1043",
+    doctorId: 1,
+    studentName: "Karim Nassar",
+    studentId: "12230892",
+    topic: "React State & Props",
+    question: "Need help passing form state back to parent component.",
+    status: "waiting",
+    joinedAt: "11:12 AM",
+  },
+];
